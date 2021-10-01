@@ -1,21 +1,23 @@
 html,
 body,
 * {
-  padding: 10px;
+  padding: 1rem;
   margin: auto;
   box-sizing: border-box;
-  font-size: 120%;
+  font-size: 62.5%;
   font-family: "Gemunu Libre";
   text-align: center;
+  background-color: white;
 }
 
 .main-header {
-  font-size: 100px;
-  letter-spacing: 10px;
+  font-size: 10rem;
+  letter-spacing: 2rem;
+  color: black;
 }
 
 .parent {
-  font-size: 30px;
+  font-size: 10rem;
   display: flex;
   width: 90vw;
   justify-content: space-around;
@@ -24,28 +26,33 @@ body,
 
 .child {
   width: 28%;
+  box-shadow: 10px 5px 5px BLACK;
+}
+
+.flexbox-text {
+  color: black;
 }
 
 .child-1 {
-  border: 5px solid black;
-  height: 300px;
+  border: 0.5rem solid black;
+  height: 30rem;
 }
 
 .child-2 {
-  border: 5px solid orange;
-  height: 300px;
+  border: 0.5rem solid orange;
+  height: 30rem;
 }
 
 .child-3 {
-  border: 5px solid pink;
-  height: 300px;
+  border: 0.5rem solid pink;
+  height: 30rem;
 }
 
 .box-image {
   background-position: center;
   background-size: cover;
-  height: 200px;
-  width: 300px;
+  height: 17rem;
+  width: 45rem;
 }
 
 #image-flamingo {
@@ -58,4 +65,28 @@ body,
 
 #image-orion {
   background-image: url(img/orion.jpg);
+}
+
+#image-outsider {
+  background-image: url(img/outsider.jpg);
+}
+
+#image-lastdance {
+  background-image: url(img/lastdance.jpg);
+}
+
+#image-kaikaikitan {
+  background-image: url(img/kaikaikitan.jpg);
+}
+
+#image-racing-into-the-night {
+  background-image: url(img/racingintothenight.jpg);
+}
+
+#image-tracing-that-dream {
+  background-image: url(img/tracingthatdream.jpg);
+}
+
+#image-kaibutsu {
+  background-image: url(img/kaibutsu.jpg);
 }
