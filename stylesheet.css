@@ -24,28 +24,26 @@ body,
   align-items: center;
 }
 
-.child {
+.flexbox {
   width: 28%;
   box-shadow: 10px 5px 5px BLACK;
+  height: 40rem;
 }
 
 .flexbox-text {
   color: black;
 }
 
-.child-1 {
+.flexbox-1 {
   border: 0.5rem solid black;
-  height: 30rem;
 }
 
 .child-2 {
   border: 0.5rem solid orange;
-  height: 30rem;
 }
 
 .child-3 {
   border: 0.5rem solid pink;
-  height: 30rem;
 }
 
 .box-image {
@@ -53,6 +51,16 @@ body,
   background-size: cover;
   height: 17rem;
   width: 45rem;
+}
+
+.music-video {
+  font-size: 3rem;
+  color: blue;
+}
+
+.description-text {
+  font-size: 3rem;
+  color: black;
 }
 
 #image-flamingo {
