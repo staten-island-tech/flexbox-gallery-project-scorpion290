@@ -58,6 +58,15 @@ body,
   color: blue;
 }
 
+.video-button {
+  border-color: blue;
+  transition: 0.5s;
+}
+
+.video-button:hover {
+  transform: scale(1.1);
+}
+
 .description-text {
   font-size: 3rem;
   color: black;
