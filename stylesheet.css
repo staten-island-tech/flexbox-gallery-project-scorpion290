@@ -16,7 +16,7 @@ body,
   color: black;
 }
 
-.parent {
+.outline {
   font-size: 10rem;
   display: flex;
   width: 90vw;
@@ -38,11 +38,11 @@ body,
   border: 0.5rem solid black;
 }
 
-.child-2 {
+.flexbox-2 {
   border: 0.5rem solid orange;
 }
 
-.child-3 {
+.flexbox-3 {
   border: 0.5rem solid pink;
 }
 
