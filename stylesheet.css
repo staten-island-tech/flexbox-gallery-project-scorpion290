@@ -7,7 +7,7 @@ body,
   font-size: 62.5%;
   font-family: "Gemunu Libre";
   text-align: center;
-  background-color: white;
+  animation: opacity 5s;
 }
 
 .main-header {
@@ -41,7 +41,11 @@ body,
 }
 
 .flexbox-text {
-  color: black;
+  transition: 2s;
+}
+
+.flexbox-text:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .flexbox-1 {
@@ -66,11 +70,13 @@ body,
 .music-video {
   font-size: 3rem;
   color: blue;
+  background-color: white;
 }
 
 .video-button {
   border-color: blue;
   transition: 0.5s;
+  background-color: white;
 }
 
 .video-button:hover {
@@ -80,6 +86,11 @@ body,
 .description-text {
   font-size: 3rem;
   color: black;
+  transition: 2s;
+}
+
+.description-text:hover {
+  transform: skew(4deg, 4deg);
 }
 
 #image-flamingo {
@@ -116,4 +127,26 @@ body,
 
 #image-kaibutsu {
   background-image: url(img/kaibutsu.jpg);
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+
+  10% {
+    opacity: 50%;
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  75% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
