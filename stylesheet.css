@@ -13,12 +13,13 @@ body,
 .main-header {
   font-size: 10rem;
   letter-spacing: 2rem;
-  color: black;
+  color: #000000;
   transition: 5s;
 }
 
 .main-header:hover {
   transform: rotate(0.01turn);
+  color: #00bcd4;
 }
 
 .outline {
@@ -31,7 +32,7 @@ body,
 
 .flexbox {
   width: 28%;
-  box-shadow: 10px 5px 5px BLACK;
+  box-shadow: 10px 5px 5px #000000;
   height: 40rem;
   transition: 0.5s;
 }
@@ -49,15 +50,27 @@ body,
 }
 
 .flexbox-1 {
-  border: 0.5rem solid black;
+  border: 0.5rem solid #455a64;
 }
 
 .flexbox-2 {
-  border: 0.5rem solid orange;
+  border: 0.5rem solid #ffc107;
 }
 
 .flexbox-3 {
-  border: 0.5rem solid pink;
+  border: 0.5rem solid #f8bbd0;
+}
+
+.flexbox-1:hover {
+  border: 0.5rem solid #212121;
+}
+
+.flexbox-2:hover {
+  border: 0.5rem solid #c27b00;
+}
+
+.flexbox-3:hover {
+  border: 0.5rem solid #c2185b;
 }
 
 .box-image {
@@ -65,18 +78,24 @@ body,
   background-size: cover;
   height: 17rem;
   width: 45rem;
+  transition: 1s;
+}
+
+.box-image:hover {
+  height: 15rem;
+  width: 43rem;
 }
 
 .music-video {
   font-size: 3rem;
-  color: blue;
-  background-color: white;
+  color: #3f51b5;
+  background-color: #ffffff;
 }
 
 .video-button {
-  border-color: blue;
+  border-color: #3f51b5;
   transition: 0.5s;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .video-button:hover {
@@ -85,7 +104,7 @@ body,
 
 .description-text {
   font-size: 3rem;
-  color: black;
+  color: #000000;
   transition: 2s;
 }
 
@@ -144,6 +163,10 @@ body,
 
   75% {
     opacity: 50%;
+  }
+
+  90% {
+    opacity: 0%;
   }
 
   100% {
