@@ -140,7 +140,7 @@ body,
 #image-kaibutsu {
   background-image: url(img/kaibutsu.jpg);
 }
-/*
+
 @keyframes opacity {
   0% {
     opacity: 0%;
@@ -166,8 +166,6 @@ body,
     opacity: 100%;
   }
 }
-
-*/
 
 @media screen and (max-width: 1600px) {
   .flexbox {
@@ -210,7 +208,7 @@ body,
   .flexbox {
     width: 80%;
     height: 40rem;
-    /*margin: 3rem;*/
+    margin: 3rem;
   }
 
   .main-header {
