@@ -1,8 +1,8 @@
 html,
 body,
 * {
-  padding: 1rem;
-  margin: auto;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Gemunu Libre";
@@ -81,7 +81,7 @@ body,
 }
 
 .music-video {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #3f51b5;
 }
 
